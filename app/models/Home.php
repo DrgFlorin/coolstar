@@ -1,6 +1,7 @@
 <?php
 
 class Home
-{
-    public $title = 'Home Page';
+{ 
+    public $title = 'CoolStar Photography - Lifestyle';
+    public $tab_icon = 'logo.png';
 }

@@ -9,7 +9,7 @@ class Controller extends Base
      * @return mixed
      * @throws Exception
      */
-    public function model($model)
+    public function model($model) 
     {
         if (is_readable('../app/models/' . $model . '.php')) {
             require_once '../app/models/' . $model . '.php';
