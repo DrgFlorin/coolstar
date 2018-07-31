@@ -13,6 +13,6 @@
     <title> <?php echo $title;?></title>
 </head>
 <body>
-    <h1>Projects</h1>
+    <h1>Gallery</h1>
 </body>
 </html>
