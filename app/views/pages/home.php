@@ -14,6 +14,6 @@
     <title> <?php echo $title;?></title>
 </head>
 <body>
-    <img src="img/<?php echo $tab_icon; ?>">
+    <h1>Home</h1>
 </body>
 </html>
