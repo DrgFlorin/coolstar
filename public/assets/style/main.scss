@@ -1,8 +1,10 @@
 body {
     padding: 0;
     margin: 0;
+    background: darkgray;
 }
 .preloader {
+    z-index: 99;
     position: fixed;
     top: 0;
     left: 0;
@@ -56,7 +58,7 @@ body {
         right: -50%;
     }
 }
-.loader.end {
+.end {
     display: none;
 }
 h1 {
@@ -66,4 +68,16 @@ h1 {
 iframe {
     margin: auto;
     display: block;
+    border:2px solid black;
+}
+.opac {
+    animation: slide 1s forwards;
+    @keyframes slide {
+        from {
+            transform: translateX(-100vw);
+        }
+        to {
+            transform: translateX(0px);
+        }
+    }
 }
