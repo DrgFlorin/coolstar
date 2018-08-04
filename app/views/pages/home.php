@@ -16,7 +16,8 @@
     <script>
         $(window).on('load', function() {
             $('.preloader').addClass('complete');
-            $('.loader').addClass('end');
+            //$('.loader').addClass('end');
+            $('.loader').slideUp(1000);
             $('iframe').addClass('opac');
         })
     </script>
