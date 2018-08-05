@@ -15,7 +15,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script>
         $(window).on('load', function() {
-            $('.preloader').addClass('complete');
+            $('.preloader').addClass('complete').fadeOut(1000);
             //$('.loader').addClass('end');
             $('.loader').slideUp(1000);
             $('iframe').addClass('opac');
@@ -28,7 +28,7 @@
     <div class="preloader">
         <div class="loader"></div>
     </div>
-    <h1>Loaded</h1>
+    <h1><a href="../gallery">Loaded</a></h1>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/aUvfzHHTKJU?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/QekbCAR3eF0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </body>
