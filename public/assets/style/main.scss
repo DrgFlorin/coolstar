@@ -62,23 +62,19 @@ body {
 .end {
     display: none;
 }
-h1 {
-    text-align: center;
-    font-family: 'Arial';
-}
-iframe {
-    margin: auto;
-    display: block;
-    border:2px solid black;
-}
-.opac {
-    animation: slide 1s forwards;
-    @keyframes slide {
-        from {
-            transform: translateX(-100vw);
-        }
-        to {
-            transform: translateX(0px);
+
+#app {
+    header {
+        height: 10vh;
+        //background: black;
+        .container {
+            width: 95%;
+            margin: auto;
+            .logo {
+                img {
+                    height: 9vh;
+                }
+            }
         }
     }
 }

@@ -1,5 +1,6 @@
 <?php
 
+//error_reporting(0);
 
 ?>
 
@@ -15,10 +16,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script>
         $(window).on('load', function() {
-            $('.preloader').addClass('complete').fadeOut(1000);
+            $('.preloader').addClass('complete').delay(1000).fadeOut(1000);
             //$('.loader').addClass('end');
             $('.loader').slideUp(1000);
-            $('iframe').addClass('opac');
         })
     </script>
     
@@ -28,8 +28,27 @@
     <div class="preloader">
         <div class="loader"></div>
     </div>
-    <h1><a href="../gallery">Loaded</a></h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/aUvfzHHTKJU?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/QekbCAR3eF0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+    <section id="app">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="img/logo.png" alt="Because i am cool and also a star" title="Because i am cool and also a star">
+                </div>
+                <div class="wrapper">
+                    <div class="b1"></div>
+                    <div class="b2"></div>
+                    <div class="b3"></div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="../gallery">Gallery</a></li>
+                        <li><a href="../?test=23">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </section>
 </body>
 </html>
