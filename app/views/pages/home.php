@@ -42,13 +42,14 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="../gallery">Gallery</a></li>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="../gallery">Gallery</a></li>   
                         <li><a href="../?test=23">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
     </section>
+
 </body>
 </html>
