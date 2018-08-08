@@ -22,7 +22,7 @@
         })
     </script>
     
-    <title> <?php echo $title;?></title>
+    <title> <?php echo $title;?></title> 
 </head>
 <body>
     <div class="preloader">
@@ -31,23 +31,7 @@
 
     <section id="app">
         <header>
-            <div class="container">
-                <div class="logo">
-                    <img src="img/logo.png" alt="Because i am cool and also a star" title="Because i am cool and also a star">
-                </div>
-                <div class="wrapper">
-                    <div class="b1"></div>
-                    <div class="b2"></div>
-                    <div class="b3"></div>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="#" class="active">Home</a></li>
-                        <li><a href="../gallery">Gallery</a></li>   
-                        <li><a href="../?test=23">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
+            
         </header>
     </section>
 

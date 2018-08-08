@@ -1,2 +1,65 @@
-body{padding:0;margin:0}.preloader{z-index:99;position:fixed;top:0;left:0;height:100%;width:100%;transition:1s}.preloader::before{content:'';position:absolute;left:0;width:50%;height:100%;background:white;transition:1s}.preloader::after{content:'';position:absolute;right:0;width:50%;height:100%;background:white;transition:1s}.preloader .loader{z-index:100;position:absolute;top:calc(50vh - 25px);right:calc(50vw - 25px);width:50px;height:50px;border-top:5px solid white;border-radius:50px;animation:spin 1s infinite}@keyframes spin{from{transform:rotate(0deg);border-color:white}to{transform:rotate(360deg);border-color:black}}.preloader.complete::before{left:-50%}.preloader.complete::after{right:-50%}.end{display:none}#app{height:100vh;width:100vw}#app header{overflow:hidden;height:10vh}#app header .container{width:95%;margin:auto}#app header .container .logo{float:left;display:inline-block;height:10vh;vertical-align:middle}#app header .container .logo img{vertical-align:middle;max-height:8vh;margin:1vh 0}#app header .container .wrapper{display:none}#app header .container nav{float:right;margin:0;position:relative;right:5vw;line-height:5vh}#app header .container nav ul li{display:inline-block;list-style:none;padding:0 15px}#app header .container nav ul li .active{border-bottom:2px solid black}#app header .container nav ul li a{background:#e3e3e3;text-decoration:none;color:black;font-family:'Arial';text-transform:uppercase;padding:10px 20px}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.preloader {
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: 1s;
+}
+.preloader::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: white;
+  transition: 1s;
+}
+.preloader::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: white;
+  transition: 1s;
+}
+.preloader .loader {
+  z-index: 100;
+  position: absolute;
+  top: calc(50vh - 25px);
+  right: calc(50vw - 25px);
+  width: 50px;
+  height: 50px;
+  border-top: 5px solid white;
+  border-radius: 50px;
+  animation: spin 1s infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+    border-color: white;
+  }
+  to {
+    transform: rotate(360deg);
+    border-color: black;
+  }
+}
+.preloader.complete::before {
+  left: -50%;
+}
+.preloader.complete::after {
+  right: -50%;
+}
+
+.end {
+  display: none;
+}
+
 /*# sourceMappingURL=main.css.map */

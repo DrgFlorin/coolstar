@@ -60,57 +60,8 @@ body {
 }
 .end {
     display: none;
-}
+} 
 
 #app {
-    height: 100vh;
-    width: 100vw;
-    header {
-        overflow: hidden;
-        height: 10vh;
-        //background: black;
-        .container {
-            width: 95%;
-            margin: auto;
-            .logo {
-                float: left;
-                display: inline-block;
-                height: 10vh;
-                vertical-align: middle;
-                img {
-                    vertical-align: middle;
-                    max-height: 8vh;
-                    margin: 1vh 0;
-                }
-            }
-            .wrapper {
-                display: none;
-            }
-            nav {
-                float: right;
-                margin: 0;
-                position: relative;
-                right: 5vw;
-                line-height: 5vh;
-                ul {
-                    li {
-                        display: inline-block;
-                        list-style: none;
-                        padding: 0 15px;
-                        .active {
-                            border-bottom: 2px solid black;
-                        }
-                        a {
-                            background: #e3e3e3;
-                            text-decoration: none;
-                            color: black;
-                            font-family: 'Arial';
-                            text-transform: uppercase;
-                            padding: 10px 20px;
-                        }
-                    }
-                }
-            }
-        }
-    }
+    
 }
