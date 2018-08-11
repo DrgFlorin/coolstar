@@ -6,6 +6,9 @@ class GalleryController extends Controller
     {
         $gallery = $this->model('Gallery');
 
-        $this->view('gallery', ['title' => $gallery->title]);
+        $this->view('gallery', 
+        [
+            'title' => $gallery->title
+        ]);
     }
 }

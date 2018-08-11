@@ -2,6 +2,7 @@
 
 //error_reporting(0);
 
+
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +18,6 @@
     <script>
         $(window).on('load', function() {
             $('.preloader').addClass('complete').delay(1000).fadeOut(1000);
-            //$('.loader').addClass('end');
             $('.loader').slideUp(1000);
         })
     </script>
