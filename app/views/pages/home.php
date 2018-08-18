@@ -19,14 +19,24 @@
         $(window).on('load', function() {
             $('.preloader').addClass('complete').delay(1000).fadeOut(1000);
             $('.loader').slideUp(1000);
+            $('.logo>img').click(function() {
+            window.open('http://localhost/coolstar', '_blank');
 
         });
-
+        });
+        $(document).ready(function() {
+            $('burger-toggle').on("click",function() {
+                $("nav").toggleClass("active");
+            });
+        });
         function slideShow() {
                 $("#slide-bg>img").first().appendTo('#slide-bg').fadeOut(1500);
                 $("#slide-bg>img").first().fadeIn(2500);    
                 setTimeout(slideShow, 6000);
-            }
+            }    
+
+        
+
     </script>
     
     <title> <?php echo $title;?></title> 
@@ -42,14 +52,17 @@
                 <img src="img/logo.png" alt="coolstar_logo" title="coolstar_logo">
                 <img src="img/logo.png" alt="coolstar_logo" title="coolstar_logo">
             </div>
-            <nav>
-                <ul>
-                    <!-- MAKE HOME TO APPEAR ONLY WHEN BEING ON A DIFFERENT PAGE THAN HOME -->
-                    <li>Home</li>
-                    <li>Gallery</li>
-                    <li>COntact</li>
-                </ul>
-            </nav>
+            <div class="menu">
+                <div class="burger-toggle">&#9776</div>
+                <nav>
+                    <ul>
+                        <!-- MAKE HOME TO APPEAR ONLY WHEN BEING ON A DIFFERENT PAGE THAN HOME -->
+                        <li>Home</li>
+                        <li>Gallery</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <!-- IDEEA FROM http://jsfiddle.net/p6ac5u27/19/ -->
         <section id="slide-bg">

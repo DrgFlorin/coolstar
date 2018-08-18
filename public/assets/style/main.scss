@@ -84,10 +84,43 @@ body {
                 &:nth-child(2) {
                     filter: contrast(200%);
                 }
+                &:hover {
+                    cursor: pointer;
+                }
             }
         }
-        nav {
-            //IN PROGRESS
+        .menu {
+            position: fixed;
+            right: 0;
+            top: 0;
+            .active {
+                transform: translateX(-300px);
+            }
+            .burger-toggle {
+                position: relative;
+                font-size: 2.5em;
+                background: white;
+                padding: 5px;
+                text-shadow: 2px 2px 5px rgba(0,0,0,0.369);
+                cursor: pointer;
+            }
+            nav {
+                background: white;
+                position: absolute;
+                transform: translateX(100px);
+                width: 250px;
+                //transform: translateX(-200px);
+                box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+                transition: 0.5s linear;
+                .active {
+                    transform: translateX(-300px);
+                }
+                ul {
+                    li {
+                        list-style: none;
+                    }
+                }
+            }
         }
     }
     #slide-bg {
