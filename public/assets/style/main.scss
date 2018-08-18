@@ -63,10 +63,32 @@ body {
     display: none;
 } 
 
-#app {
+#app-home {
     header {
         z-index: 10;
         position: absolute;
+        top: 0;
+        .logo {
+            background: white;
+            position: absolute;
+            left: 0;
+            top: 0;
+            img {
+                width: 8vw;
+                padding: 10px 20px;
+                &:nth-child(1) {
+                    opacity: 0.369;
+                    filter: blur(8px) grayscale(1);
+                    position: absolute;
+                }
+                &:nth-child(2) {
+                    filter: contrast(200%);
+                }
+            }
+        }
+        nav {
+            //IN PROGRESS
+        }
     }
     #slide-bg {
         z-index: 1;

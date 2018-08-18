@@ -36,9 +36,10 @@
         <div class="loader"></div>
     </div>
 
-    <section id="app">
+    <section id="app-home">
         <header>
             <div class="logo">
+                <img src="img/logo.png" alt="coolstar_logo" title="coolstar_logo">
                 <img src="img/logo.png" alt="coolstar_logo" title="coolstar_logo">
             </div>
             <nav>
