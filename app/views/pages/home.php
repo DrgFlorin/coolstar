@@ -24,11 +24,7 @@
 
         });
         });
-        $(document).ready(function() {
-            $('burger-toggle').on("click",function() {
-                $("nav").toggleClass("active");
-            });
-        });
+        
         function slideShow() {
                 $("#slide-bg>img").first().appendTo('#slide-bg').fadeOut(1500);
                 $("#slide-bg>img").first().fadeIn(2500);    
@@ -75,4 +71,12 @@
     </section>
 
 </body>
+
+<script>
+$(document).ready(function() {
+            $('.burger-toggle').on("click",function() {
+                $("nav").toggleClass("active");
+            });
+        });
+</script>
 </html>

@@ -66,13 +66,14 @@ body {
 #app-home {
     header {
         z-index: 10;
-        position: absolute;
+        position: fixed;
         top: 0;
         .logo {
             background: white;
-            position: absolute;
-            left: 0;
-            top: 0;
+            //position: absolute;
+            float: left;
+            //left: 0;
+            //top: 0;
             img {
                 width: 8vw;
                 padding: 10px 20px;
@@ -94,7 +95,7 @@ body {
             right: 0;
             top: 0;
             .active {
-                transform: translateX(-300px);
+                transform: translateX(-200px);
             }
             .burger-toggle {
                 position: relative;
@@ -107,14 +108,10 @@ body {
             nav {
                 background: white;
                 position: absolute;
-                transform: translateX(100px);
+                transform: translateX(50px);
                 width: 250px;
-                //transform: translateX(-200px);
                 box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
-                transition: 0.5s linear;
-                .active {
-                    transform: translateX(-300px);
-                }
+                transition: 0.5s ease-in-out;
                 ul {
                     li {
                         list-style: none;
