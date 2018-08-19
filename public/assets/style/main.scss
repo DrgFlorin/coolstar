@@ -95,11 +95,11 @@ body {
             right: 0;
             top: 0;
             .active {
-                transform: translateX(-200px);
+                transform: translateX(-150px);
             }
             .burger-toggle {
                 position: relative;
-                font-size: 2.5em;
+                font-size: 2em;
                 background: white;
                 padding: 5px;
                 text-shadow: 2px 2px 5px rgba(0,0,0,0.369);
@@ -113,6 +113,7 @@ body {
                 box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
                 transition: 0.5s ease-in-out;
                 ul {
+                    padding: 0 0 0 20px;
                     li {
                         list-style: none;
                     }
@@ -131,5 +132,12 @@ body {
             margin: 0;
             object-fit:cover;
         }
+    }
+    #content {
+        position: absolute;
+        right: 15vw;
+        width: 30vw;
+        height: 100vh;
+        background: rgba(0,0,0,0.7);
     }
 }
