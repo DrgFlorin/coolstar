@@ -1,3 +1,5 @@
+@import 'fonts';
+
 body {
     padding: 0;
     margin: 0;
@@ -112,10 +114,25 @@ body {
                 width: 250px;
                 box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
                 transition: 0.5s ease-in-out;
+                border-left: 5px solid yellow;
+                box-sizing: border-box;
                 ul {
-                    padding: 0 0 0 20px;
+                    padding: 0 0 0 10px;
                     li {
                         list-style: none;
+                        padding: 5px 0;
+                        a {
+                            color: black;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            font:1.5em 'Avenir';
+                            padding: 5px 10px;
+                            border-bottom: 2px solid transparent;
+                            transition: 0.3s linear;
+                            &:hover {
+                                border-bottom: 2px solid black;
+                            }
+                        }
                     }
                 }
             }
@@ -140,5 +157,21 @@ body {
         width: 30vw;
         height: 100vh;
         background: rgba(0,0,0,0.7);
+        .content-title {
+            font: 3em 'Mercy';
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 10px 0 0 0;
+            letter-spacing: 6.69px;
+        }
+        hr {
+            width: calc(100vw - 73vw);
+        }
+        .title {
+            color: white;
+            text-align: left;
+            padding: 0 0 0 10px;
+        }
     }
 }

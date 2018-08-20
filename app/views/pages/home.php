@@ -53,9 +53,9 @@
                 <nav>
                     <ul>
                         <!-- MAKE HOME TO APPEAR ONLY WHEN BEING ON A DIFFERENT PAGE THAN HOME -->
-                        <li>Home</li>
-                        <li>Gallery</li>
-                        <li>Contact</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -70,7 +70,9 @@
         </section>
 
         <section id="content">
-
+            <div class="content-title">Photographer</div>
+            <hr>
+            <div class="title"></div>
         </section>
 
     </section>
