@@ -52,8 +52,7 @@
                 <div class="burger-toggle">&#9776</div>
                 <nav>
                     <ul>
-                        <!-- MAKE HOME TO APPEAR ONLY WHEN BEING ON A DIFFERENT PAGE THAN HOME -->
-                        <li><a href="#">Home</a></li>
+                        <!-- HOME IS THE LOGO ITSELF -->
                         <li><a href="#">Gallery</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -73,6 +72,8 @@
             <div class="content-title">Photographer</div>
             <hr>
             <div class="title"></div>
+            <hr>
+            <!-- FROM HERE WE GO -->
         </section>
 
     </section>
@@ -82,7 +83,7 @@
 <script>
 $(document).ready(function() {
             $('.burger-toggle').on("click",function() {
-                $("nav").toggleClass("active");
+                $("nav").toggleClass("active"); 
             });
         });
 </script>

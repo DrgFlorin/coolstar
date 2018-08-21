@@ -148,30 +148,52 @@ body {
             height: 100vh;
             margin: 0;
             object-fit:cover;
-            filter: blur(3.69px);
+            filter: blur(3px);
         }
     }
     #content {
         position: absolute;
         right: 15vw;
-        width: 30vw;
+        width: 31vw;
         height: 100vh;
         background: rgba(0,0,0,0.7);
         .content-title {
-            font: 3em 'Mercy';
+            font: 3.5em 'Mercy';
             color: white;
             text-transform: uppercase;
             text-align: center;
-            padding: 10px 0 0 0;
-            letter-spacing: 6.69px;
+            padding: 30px 0 10px 0;
+            letter-spacing: 15px;
+            margin-right: -15px;
+            font-weight: lighter;
         }
         hr {
-            width: calc(100vw - 73vw);
+            width: calc(100vw - 72vw);
+            height: 2px;
+            background: white;
+            margin: 0 auto;
+            position: static;
         }
         .title {
             color: white;
-            text-align: left;
-            padding: 0 0 0 10px;
+            padding: 0 20px;
+            font-family: 'Montserrat';
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 3px;
+            &::before {
+                content: 'Cool';
+                font-size: 8.5em;
+                display: block;
+            }
+            &::after {
+                content: 'Star';
+                position: relative;
+                bottom: 30px;
+                display: block;
+                font-size: 12em;
+                margin-bottom: -30px;
+            }
         }
     }
 }
