@@ -45,8 +45,8 @@
     <section id="app-home">
         <header>
             <div class="logo">
-                <img src="img/logo.png" alt="coolstar_logo" title="coolstar_logo">
-                <img src="img/logo.png" alt="coolstar_logo" title="coolstar_logo">
+                <img src="img/logo.png" alt="Let`s Go Home" title="Let`s Go Home">
+                <img src="img/logo.png" alt="Let`s Go Home" title="Let`s Go Home">
             </div>
             <div class="menu">
                 <div class="burger-toggle">&#9776</div>
@@ -74,6 +74,15 @@
             <div class="title"></div>
             <hr>
             <!-- FROM HERE WE GO -->
+            <div class="news">
+                <h2>News</h2>
+                <div class="news-grid">
+                    <div class="post-1">POST1</div>
+                    <div class="post-2">POST2</div>
+                    <div class="post-3">POST3</div>
+                    <div class="post-4">POST4</div>
+                </div>
+            </div>
         </section>
 
     </section>
