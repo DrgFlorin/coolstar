@@ -53,7 +53,7 @@
                 <nav>
                     <ul>
                         <!-- HOME IS THE LOGO ITSELF -->
-                        <li><a href="#">Gallery</a></li>
+                        <li><a href="../gallery">Gallery</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
@@ -77,10 +77,37 @@
             <div class="news">
                 <h2>News</h2>
                 <div class="news-grid">
-                    <div class="post-1">POST1</div>
-                    <div class="post-2">POST2</div>
-                    <div class="post-3">POST3</div>
-                    <div class="post-4">POST4</div>
+                    <div class="post-1">
+                        <div class="post-title">Tenerife</div>
+                        <div class="post-thumbnail"></div>
+                        <div class="post-description"></div>
+                        <div class="post-date"></div>
+                        <!-- BUTTON -->
+                    </div>
+
+                    <div class="post-2">
+                        <div class="post-title">Tenerife</div>
+                        <div class="post-thumbnail"></div>
+                        <div class="post-description"></div>
+                        <div class="post-date"></div>
+                        <!-- BUTTON -->
+                    </div>
+
+                    <div class="post-3">
+                        <div class="post-title">Tenerife</div>
+                        <div class="post-thumbnail"></div>
+                        <div class="post-description"></div>
+                        <div class="post-date"></div>
+                        <!-- BUTTON -->
+                    </div>
+
+                    <div class="post-4">
+                        <div class="post-title">Tenerife</div>
+                        <div class="post-thumbnail"></div>
+                        <div class="post-description"></div>
+                        <div class="post-date"></div>
+                        <!-- BUTTON -->
+                    </div>
                 </div>
             </div>
         </section>

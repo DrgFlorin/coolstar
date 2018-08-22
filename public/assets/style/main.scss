@@ -1,4 +1,6 @@
 @import 'fonts';
+$gap-news: 50px;
+
 
 body {
     padding: 0;
@@ -80,7 +82,7 @@ body {
                 width: 8vw;
                 padding: 10px 20px;
                 &:nth-child(1) {
-                    opacity: 0.5;
+                    opacity: 0.6;
                     filter: blur(8px) grayscale(1);
                     position: absolute;
                 }
@@ -130,7 +132,7 @@ body {
                             text-decoration: none;
                             text-transform: uppercase;
                             font:1.5em 'Avenir';
-                            padding: 5px 10px;
+                            padding: 5px 8px;
                             border-bottom: 2px solid transparent;
                             transition: 0.2s linear;
                             &:hover {
@@ -204,16 +206,20 @@ body {
                 font-size: 12em;
                 margin-bottom: -45px;
                 @media screen and(max-width: 1400px) {
-                    font-size: 8.5em;
+                    font-size: 8.3em;
                 }
             }
         }
         .news {
             h2 {
-                font: 2em 'Montserrat';
+                font: 2.5em 'Montserrat';
                 font-weight: bold;
-                margin: 5px 0 0 20px;
+                margin: 5px 0 10px 30px;
                 color: yellow;
+                @media screen and(max-width: 1400px) {
+                    margin: 5px 0 10px 20px;
+                    font-size: 2em;
+                }
             }
             .news-grid {
                 display: grid;
@@ -221,19 +227,62 @@ body {
                     "p1 p2"
                     "p3 p4";
                 height: 40vh;
-                width: 30vw;
+                width: 28vw;
+                margin: auto;
+                grid-gap: $gap-news;
+                //THE IMAGE INSIDE POSTS SHOULD BE ""calc(28vw/2 - 10px);""
             }
             .post-1 {
                 grid-area: p1;
+                width: calc(28vw/2 - $gap-news);
+                .post-title {
+                    font: 1.2em 'Montserrat';
+                    background:white;
+                    color: black;
+                    padding: 2px 0 2px 5px;
+                    @media screen and(max-width: 1400px) {
+                        padding: 0 0 0 3px;
+                    }
+                }
             }
             .post-2 {
                 grid-area: p2;
+                width: calc(28vw/2 - $gap-news);
+                .post-title {
+                    font: 1.2em 'Montserrat';
+                    background:white;
+                    color: black;
+                    padding: 2px 0 2px 5px;
+                    @media screen and(max-width: 1400px) {
+                        padding: 0 0 0 3px;
+                    }
+                }
             }
             .post-3 {
                 grid-area: p3;
+                width: calc(28vw/2 - $gap-news);
+                .post-title {
+                    font: 1.2em 'Montserrat';
+                    background:white;
+                    color: black;
+                    padding: 2px 0 2px 5px;
+                    @media screen and(max-width: 1400px) {
+                        padding: 0 0 0 3px;
+                    }
+                }
             }
             .post-4 {
                 grid-area: p4;
+                width: calc(28vw/2 - $gap-news);
+                .post-title {
+                    font: 1.2em 'Montserrat';
+                    background:white;
+                    color: black;
+                    padding: 2px 0 2px 5px;
+                    @media screen and(max-width: 1400px) {
+                        padding: 0 0 0 3px;
+                    }
+                }
             }
         }
     }
