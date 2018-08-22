@@ -77,7 +77,7 @@
             <div class="news">
                 <h2>News</h2>
                 <div class="news-grid">
-                    <div class="post-1">
+                    <div class="post one">
                         <div class="post-title">Tenerife</div>
                         <div class="post-thumbnail"></div>
                         <div class="post-description"></div>
@@ -85,7 +85,7 @@
                         <!-- BUTTON -->
                     </div>
 
-                    <div class="post-2">
+                    <div class="post two">
                         <div class="post-title">Tenerife</div>
                         <div class="post-thumbnail"></div>
                         <div class="post-description"></div>
@@ -93,7 +93,7 @@
                         <!-- BUTTON -->
                     </div>
 
-                    <div class="post-3">
+                    <div class="post three">
                         <div class="post-title">Tenerife</div>
                         <div class="post-thumbnail"></div>
                         <div class="post-description"></div>
@@ -101,7 +101,7 @@
                         <!-- BUTTON -->
                     </div>
 
-                    <div class="post-4">
+                    <div class="post four">
                         <div class="post-title">Tenerife</div>
                         <div class="post-thumbnail"></div>
                         <div class="post-description"></div>
