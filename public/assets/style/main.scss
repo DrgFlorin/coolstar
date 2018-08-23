@@ -245,6 +245,14 @@ body {
                         background: white;
                     }
                 }
+                @media screen and(max-width: 1300px) {
+                    grid-template-areas: 
+                        "p1"
+                        "p2"
+                        "p3"
+                        "p4";
+                    height: 58vh;
+                }
 
                 //THE IMAGE INSIDE POSTS SHOULD BE ""calc(28vw/2 - 10px);""
             }
@@ -262,8 +270,6 @@ body {
                 }
                 .post-thumbnail {
                     background: url('../img/test.jpg') no-repeat;
-                    background-size: cover;
-                    height: 120px;
                 }
             }
             .tow {
@@ -289,6 +295,9 @@ body {
                     background: url('../img/test.jpg') no-repeat;
                     background-size: cover;
                     height: 100px;
+                    @media screen and(max-width: 1300px) {
+                        height: 150px;
+                    }
                 }
                 .post-description {
                     color: white;
