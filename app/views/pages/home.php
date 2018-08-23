@@ -75,12 +75,14 @@
             <hr>
             <!-- FROM HERE WE GO -->
             <div class="news">
-                <h2>News</h2>
+                <h2>Latest posts</h2>
                 <div class="news-grid">
                     <div class="post one">
                         <div class="post-title">Tenerife</div>
                         <div class="post-thumbnail"></div>
-                        <div class="post-description"></div>
+                        <div class="post-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel gravida nisi, vel tincidunt massa...</p>
+                        </div>
                         <div class="post-date"></div>
                         <!-- BUTTON -->
                     </div>
@@ -88,7 +90,9 @@
                     <div class="post two">
                         <div class="post-title">Tenerife</div>
                         <div class="post-thumbnail"></div>
-                        <div class="post-description"></div>
+                        <div class="post-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel gravida nisi, vel tincidunt massa...</p>
+                        </div>
                         <div class="post-date"></div>
                         <!-- BUTTON -->
                     </div>

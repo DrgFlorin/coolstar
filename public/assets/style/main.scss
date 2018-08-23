@@ -226,10 +226,26 @@ body {
                 grid-template-areas: 
                     "p1 p2"
                     "p3 p4";
-                height: 40vh;
+                height: 42vh;
                 width: 28vw;
                 margin: auto;
                 grid-gap: $gap-news;
+                overflow: scroll;
+                overflow-x: hidden;
+                &::-webkit-scrollbar{
+                    width:10px;
+                }
+                &::-webkit-scrollbar-track {
+                    background: transparent;
+                }
+                &::-webkit-scrollbar-thumb {
+                    background: yellow;
+                    border-radius: 30px;
+                    &:hover {
+                        background: white;
+                    }
+                }
+
                 //THE IMAGE INSIDE POSTS SHOULD BE ""calc(28vw/2 - 10px);""
             }
             .one {
@@ -268,6 +284,16 @@ body {
                     @media screen and(max-width: 1400px) {
                         padding: 0 0 0 3px;
                     }
+                }
+                .post-thumbnail {
+                    background: url('../img/test.jpg') no-repeat;
+                    background-size: cover;
+                    height: 100px;
+                }
+                .post-description {
+                    color: white;
+                    font: 0.9em 'Avenir';
+                    padding-bottom: 0px;
                 }
             }
         }
