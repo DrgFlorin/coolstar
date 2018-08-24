@@ -35,6 +35,9 @@ body {
     }
     .loader {
         z-index: 100;
+        color: yellow;
+        font-weight: bold;
+        font-size: 4em;
         position: absolute;
         top: calc(50vh - 25px);
         right: calc(50vw - 25px);

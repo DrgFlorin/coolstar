@@ -17,7 +17,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script>
         $(window).on('load', function() {
-            $('.preloader').addClass('complete').delay(1000).fadeOut(1000);
+            $('.preloader').addClass('complete').delay(1000).fadeOut(800);
             $('.loader').slideUp(1000);
             $('.logo>img').click(function() {
             window.open('http://localhost/coolstar', '_blank');
@@ -39,9 +39,9 @@
 </head>
 <body onLoad="slideShow();">
     <div class="preloader">
-        <div class="loader"></div>
+        <div class="loader">&star;</div>
     </div>
-
+    <iframe src="http://slowwly.robertomurray.co.uk/delay/3000/url/http://www.google.co.uk" frameborder="0" style="position:absolute;width:200px;height:200px;"></iframe>
     <section id="app-home">
         <header>
             <div class="logo">
@@ -81,7 +81,7 @@
                         <div class="post-title">Tenerife</div>
                         <div class="post-thumbnail"></div>
                         <div class="post-description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel gravida nisi, vel tincidunt massa...</p>
+                            <p>>>>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel gravida nisi, vel tincidunt massa...</p>
                         </div>
                         <div class="post-date"></div>
                         <!-- BUTTON -->
@@ -91,7 +91,7 @@
                         <div class="post-title">Tenerife</div>
                         <div class="post-thumbnail"></div>
                         <div class="post-description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel gravida nisi, vel tincidunt massa...</p>
+                            <p>>>>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel gravida nisi, vel tincidunt massa...</p>
                         </div>
                         <div class="post-date"></div>
                         <!-- BUTTON -->
