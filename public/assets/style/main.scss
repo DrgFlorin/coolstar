@@ -35,9 +35,6 @@ body {
     }
     .loader {
         z-index: 100;
-        color: yellow;
-        font-weight: bold;
-        font-size: 4em;
         position: absolute;
         top: calc(50vh - 25px);
         right: calc(50vw - 25px);
@@ -54,6 +51,25 @@ body {
             to {
                 transform: rotate(360deg);
                 border-color: black;
+            }
+        }
+    }
+    .star {
+        font-size: 4em;
+        font-weight: bold;
+        width: 50px;
+        height: 50px;
+        color: yellow;
+        animation: rotate  1s infinite;
+        @keyframes rotate {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
             }
         }
     }

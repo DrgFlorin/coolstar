@@ -39,9 +39,9 @@
 </head>
 <body onLoad="slideShow();">
     <div class="preloader">
-        <div class="loader">&star;</div>
+        <div class="loader"><div class="star">&star;</div></div>
     </div>
-    <iframe src="http://slowwly.robertomurray.co.uk/delay/3000/url/http://www.google.co.uk" frameborder="0" style="position:absolute;width:200px;height:200px;"></iframe>
+    <iframe src="http://slowwly.robertomurray.co.uk/delay/2000/url/http://www.google.co.uk" frameborder="0" style="position:absolute;width:200px;height:200px;"></iframe>
     <section id="app-home">
         <header>
             <div class="logo">
