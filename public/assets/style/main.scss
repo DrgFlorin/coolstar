@@ -245,7 +245,7 @@ body {
                 grid-template-areas: 
                     "p1 p2"
                     "p3 p4";
-                height: 42vh;
+                height: 45vh;
                 width: 28vw;
                 margin: auto;
                 grid-gap: $gap-news;
@@ -291,14 +291,23 @@ body {
                     background: url('../img/test.jpg') no-repeat;
                 }
             }
-            .tow {
+            .two {
                 grid-area: p2;
+                .post-thumbnail {
+                    background: url(../img/test2.jpg);
+                }
             }
             .three {
                 grid-area: p3;
+                .post-thumbnail {
+                    background: url(../img/test2.jpg);
+                }
             }
             .four {
                 grid-area: p4;
+                .post-thumbnail {
+                    background: url(../img/test2.jpg);
+                }
             }
             .post {
                 .post-title {
@@ -311,7 +320,7 @@ body {
                     }
                 }
                 .post-thumbnail {
-                    background: url('../img/test.jpg') no-repeat;
+                    //background: url('../img/test.jpg') no-repeat;
                     background-size: cover;
                     height: 100px;
                     @media screen and(max-width: 1300px) {
