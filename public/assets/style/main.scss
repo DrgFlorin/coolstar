@@ -1,5 +1,6 @@
 @import 'fonts';
-$gap-news: 50px;
+$gap-news: 40px;
+// LIMIT OF 100 CHARACTERS IN POST-DESCRIPTION
 
 
 body {
@@ -291,7 +292,7 @@ body {
                     background: url('../img/test.jpg') no-repeat;
                 }
             }
-            .tow {
+            .two {
                 grid-area: p2;
             }
             .three {

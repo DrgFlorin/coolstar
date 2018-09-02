@@ -41,7 +41,7 @@
     <div class="preloader">
         <div class="loader"><div class="star">&star;</div></div>
     </div>
-    <iframe src="http://slowwly.robertomurray.co.uk/delay/2000/url/http://www.google.co.uk" frameborder="0" style="position:absolute;width:200px;height:200px;"></iframe>
+    <!-- <iframe src="http://slowwly.robertomurray.co.uk/delay/2000/url/http://www.google.co.uk" frameborder="0" style="position:absolute;width:200px;height:200px;"></iframe> -->
     <section id="app-home">
         <header>
             <div class="logo">
@@ -100,7 +100,9 @@
                     <div class="post three">
                         <div class="post-title">Tenerife</div>
                         <div class="post-thumbnail"></div>
-                        <div class="post-description"></div>
+                        <div class="post-description">
+                            <p>>>>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel gravida nisi, vel tincidunt massa...</p>
+                        </div>
                         <div class="post-date"></div>
                         <!-- BUTTON -->
                     </div>
@@ -108,7 +110,9 @@
                     <div class="post four">
                         <div class="post-title">Tenerife</div>
                         <div class="post-thumbnail"></div>
-                        <div class="post-description"></div>
+                        <div class="post-description">
+                            <p>>>>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel gravida nisi, vel tincidunt massa...</p>    
+                        </div>
                         <div class="post-date"></div>
                         <!-- BUTTON -->
                     </div>
