@@ -83,8 +83,8 @@
                         <div class="post-description">
                             <p>>>>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel gravida nisi, vel tincidunt massa...</p>
                         </div>
-                        <div class="post-date"></div>
-                        <!-- BUTTON -->
+                        <div class="post-date">23/08/2018</div>
+                        <div class="post-check"><a href="#">Check it!</a></div>
                     </div>
 
                     <div class="post two">
@@ -93,8 +93,8 @@
                         <div class="post-description">
                             <p>>>>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel gravida nisi, vel tincidunt massa...</p>
                         </div>
-                        <div class="post-date"></div>
-                        <!-- BUTTON -->
+                        <div class="post-date">23/08/2018</div>
+                        <div class="post-check"><a href="#">Check it!</a></div>
                     </div>
 
                     <div class="post three">
@@ -103,8 +103,8 @@
                         <div class="post-description">
                             <p>>>>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel gravida nisi, vel tincidunt massa...</p>
                         </div>
-                        <div class="post-date"></div>
-                        <!-- BUTTON -->
+                        <div class="post-date">23/08/2018</div>
+                        <div class="post-check"><a href="#">Check it!</a></div>
                     </div>
 
                     <div class="post four">
@@ -113,8 +113,8 @@
                         <div class="post-description">
                             <p>>>>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel gravida nisi, vel tincidunt massa...</p>    
                         </div>
-                        <div class="post-date"></div>
-                        <!-- BUTTON -->
+                        <div class="post-date">23/08/2018</div>
+                        <div class="post-check"><a href="#">Check it!</a></div>
                     </div>
                 </div>
             </div>

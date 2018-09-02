@@ -318,6 +318,26 @@ body {
                     font: 0.9em 'Avenir';
                     padding-bottom: 0px;
                 }
+                .post-date {
+                    font: 1em 'Avenir';
+                    font-weight: bold;
+                    color: white;
+                    letter-spacing: 1px;
+                    display: inline-block;
+                }
+                .post-check {
+                    float: right;
+                    margin-right: 5px;
+                    a {
+                        text-decoration: none;
+                        font: 1em 'Montserrat';
+                        color: white;
+                        background: black;
+                        padding: 1px 8px;
+                        border: 2px solid yellow;
+                        border-radius: 30px;
+                    }
+                }
             }
         }
     }
