@@ -342,6 +342,11 @@ body {
                         padding: 1px 8px;
                         border: 2px solid yellow;
                         border-radius: 30px;
+                        transition: .2s;
+                        &:hover {
+                            background:white;
+                            color: black;
+                        }
                     }
                 }
             }
