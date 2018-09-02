@@ -265,7 +265,13 @@ body {
                         background: white;
                     }
                 }
-                @media screen and(max-width: 1300px) {
+                @media screen and (max-width: 1920px) {
+                    height: 45vh;
+                }
+                @media screen and (max-width: 1400px) {
+                    height: 42vh;
+                }
+                @media screen and (max-width: 1300px) {
                     grid-template-areas: 
                         "p1"
                         "p2"
