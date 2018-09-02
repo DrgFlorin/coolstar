@@ -280,13 +280,7 @@ body {
                 grid-area: p1;
                 width: calc(28vw/2 - $gap-news);
                 .post-title {
-                    font: 1.2em 'Montserrat';
-                    background:white;
-                    color: black;
-                    padding: 2px 0 2px 5px;
-                    @media screen and(max-width: 1400px) {
-                        padding: 0 0 0 3px;
-                    }
+                    
                 }
                 .post-thumbnail {
                     background: url('../img/test.jpg') no-repeat;
