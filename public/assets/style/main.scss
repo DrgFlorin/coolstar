@@ -330,6 +330,9 @@ body {
                     color: white;
                     letter-spacing: 1px;
                     display: inline-block;
+                    @media (max-width: 1400px) and (min-width: 1300px) {
+                        font-size: 0.8em;
+                    }
                 }
                 .post-check {
                     float: right;
@@ -346,6 +349,9 @@ body {
                         &:hover {
                             background:white;
                             color: black;
+                        }
+                        @media (max-width: 1400px) and (min-width: 1300px) {
+                            font-size: 0.8em;
                         }
                     }
                 }
