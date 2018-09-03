@@ -14,10 +14,11 @@
     <base href="../public/assets/">
     <link rel="icon" href="img/<?php echo $tab_icon;?>">
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script>
         $(window).on('load', function() {
-            $('.preloader').addClass('complete').delay(1000).fadeOut(800);
+            $('.preloader').addClass('complete').delay(1000).fadeOut(500);
             $('.loader').slideUp(1000);
             $('.logo>img').click(function() {
             window.open('http://localhost/coolstar', '_blank');
@@ -41,7 +42,7 @@
     <div class="preloader">
         <div class="loader"><div class="star">&star;</div></div>
     </div>
-    <!-- <iframe src="http://slowwly.robertomurray.co.uk/delay/2000/url/http://www.google.co.uk" frameborder="0" style="position:absolute;width:200px;height:200px;"></iframe> -->
+    <iframe src="http://slowwly.robertomurray.co.uk/delay/1000/url/http://www.google.co.uk" frameborder="0" style="position:absolute;width:200px;height:200px;"></iframe> 
     <section id="app-home">
         <header>
             <div class="logo">
@@ -116,6 +117,7 @@
                         <div class="post-date">23/08/2018</div>
                         <div class="post-check"><a href="#">Check it!</a></div>
                     </div>
+                    <!-- Further feature: ...More button for the post section: being able to see all the post that have been posted in one page -->
                 </div>
             </div>
         </section>
