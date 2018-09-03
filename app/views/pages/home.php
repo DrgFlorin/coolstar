@@ -117,9 +117,14 @@
                         <div class="post-date">23/08/2018</div>
                         <div class="post-check"><a href="#">Check it!</a></div>
                     </div>
-                    <!-- Further feature: ...More button for the post section: being able to see all the post that have been posted in one page -->
-                </div>
+                    <!-- Further feature: ...More button for the post section: being able to see all the post that have been posted in one page -->  
+             </div>
             </div>
+            <div class="social">
+                    <ul>
+                        <li><a href="https://www.instagram.com/coolstarphotography/" target="_b"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
         </section>
 
     </section>
