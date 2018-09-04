@@ -385,4 +385,29 @@ body {
             }
         }
     }
+    .go-gallery {
+        position: absolute;
+        left: 0;
+        top: 66.9vh;
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            background: black;
+            font: 4em 'Montserrat';
+            padding: 5px 10px;
+            border: 5px solid yellow;
+            border-left: 0px;
+            letter-spacing: 3px;
+            transition: .2s;
+            &:hover {
+                background: white;
+                color: black;
+                border-color: black;
+            }
+            @media screen and (max-width: 1400px) {
+                font-size: 3.5em;
+            }
+        }
+    }
 }

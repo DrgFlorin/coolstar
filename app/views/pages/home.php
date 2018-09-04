@@ -6,7 +6,8 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,27 +21,32 @@
         $(window).on('load', function() {
             $('.preloader').addClass('complete').delay(1000).fadeOut(500);
             $('.loader').slideUp(1000);
+            $('.go-gallery').hide(0);
+            $('.go-gallery').show(1100);
             $('.logo>img').click(function() {
-            window.open('http://localhost/coolstar', '_blank');
+                window.open('http://localhost/coolstar', '_blank');
 
+            });
         });
-        });
-        
+
         function slideShow() {
-                $("#slide-bg>img").first().appendTo('#slide-bg').fadeOut(1500);
-                $("#slide-bg>img").first().fadeIn(2500);    
-                setTimeout(slideShow, 6000);
-            }    
-
-        
+            $("#slide-bg>img").first().appendTo('#slide-bg').fadeOut(1500);
+            $("#slide-bg>img").first().fadeIn(2500);
+            setTimeout(slideShow, 6000);
+        }
 
     </script>
-    
-    <title> <?php echo $title;?></title> 
+
+    <title>
+        <?php echo $title;?>
+    </title>
 </head>
+
 <body onLoad="slideShow();">
     <div class="preloader">
-        <div class="loader"><div class="star">&star;</div></div>
+        <div class="loader">
+            <div class="star">&star;</div>
+        </div>
     </div>
     <!-- <iframe src="http://slowwly.robertomurray.co.uk/delay/1000/url/http://www.google.co.uk" frameborder="0" style="position:absolute;width:200px;height:200px;"></iframe>  -->
     <section id="app-home">
@@ -112,32 +118,38 @@
                         <div class="post-title">Tenerife</div>
                         <div class="post-thumbnail"></div>
                         <div class="post-description">
-                            <p>>>>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel gravida nisi, vel tincidunt massa...</p>    
+                            <p>>>>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel gravida nisi, vel tincidunt massa...</p>
                         </div>
                         <div class="post-date">23/08/2018</div>
                         <div class="post-check"><a href="#">Check it!</a></div>
                     </div>
-                    <!-- Further feature: ...More button for the post section: being able to see all the post that have been posted in one page -->  
-             </div>
-            </div>
-            
-        </section>
-    
-            <div class="social">
-                    <ul>
-                        <li><a href="https://www.instagram.com/coolstarphotography/" target="_b"><i class="fab fa-instagram"></i></a></li>
-                    </ul>
+                    <!-- Further feature: ...More button for the post section: being able to see all the post that have been posted in one page -->
                 </div>
-    
+            </div>
+
+        </section>
+
+        <div class="social">
+            <ul>
+                <li><a href="https://www.instagram.com/coolstarphotography/" target="_b"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        
+        <div class="go-gallery">
+            <a href="../gallery" target="_b">Gallery</a>
+        </div>
+
     </section>
 
 </body>
 
 <script>
-$(document).ready(function() {
-            $('.burger-toggle').on("click",function() {
-                $("nav").toggleClass("active"); 
-            });
+    $(document).ready(function() {
+        $('.burger-toggle').on("click", function() {
+            $("nav").toggleClass("active");
         });
+    });
+
 </script>
+
 </html>
