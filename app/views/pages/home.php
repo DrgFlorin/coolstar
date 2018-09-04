@@ -42,7 +42,7 @@
     <div class="preloader">
         <div class="loader"><div class="star">&star;</div></div>
     </div>
-    <iframe src="http://slowwly.robertomurray.co.uk/delay/1000/url/http://www.google.co.uk" frameborder="0" style="position:absolute;width:200px;height:200px;"></iframe> 
+    <!-- <iframe src="http://slowwly.robertomurray.co.uk/delay/1000/url/http://www.google.co.uk" frameborder="0" style="position:absolute;width:200px;height:200px;"></iframe>  -->
     <section id="app-home">
         <header>
             <div class="logo">
@@ -120,13 +120,15 @@
                     <!-- Further feature: ...More button for the post section: being able to see all the post that have been posted in one page -->  
              </div>
             </div>
+            
+        </section>
+    
             <div class="social">
                     <ul>
                         <li><a href="https://www.instagram.com/coolstarphotography/" target="_b"><i class="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
-        </section>
-
+    
     </section>
 
 </body>
