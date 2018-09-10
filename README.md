@@ -1,3 +1,1 @@
-\# coolstar
-Photography website about lifestyle (portfolio kind)
-## Le` Go
+# Foobar ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
